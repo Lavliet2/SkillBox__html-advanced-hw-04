@@ -3,9 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="css/normalize.mini.css">
+    <link rel="stylesheet" href="css/style.mini.css">
+    <link rel="stylesheet" href="css/media.mini.css">
+
+    <link rel="preload" href="fonts/Montserrat/Montserrat-Light.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+    <link rel="preload" href="fonts/Montserrat/Montserrat-Regular.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+    <link rel="preload" href="fonts/Montserrat/Montserrat-Medium.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+    <link rel="preload" href="fonts/Montserrat/Montserrat-Bold.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+    <link rel="preload" href="fonts/Montserrat/Montserrat-ExtraBold.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+
+    <link rel="preload" href="img/hero-bg.webp" as="image">    
+
     <title>ЕвклидС</title>
 </head>
 <body>
@@ -192,7 +201,9 @@
       <div class="footer__container flex">
         <div class="footer__left flex">
           <a href="#" class="footer__logo">
-            <img src="./img/logo.png" class="footer__logo-img" alt="Логотип">
+            <picture>
+              <img src="./img/logo.webp" class="footer__logo-img" alt="Логотип">
+            </picture>
           </a>
           <nav class="footer__nav nav" aria-label="Навигация по футеру">
             <ul class="footer__nav-list flex">

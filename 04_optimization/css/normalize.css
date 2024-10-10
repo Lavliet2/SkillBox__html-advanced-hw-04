@@ -10,7 +10,7 @@
 
 html {
   line-height: 1.15; /* 1 */
-  -webkit-text-size-adjust: 100%; /* 2 */
+  -webpkit-text-size-adjust: 100%; /* 2 */
 }
 
 /* Sections
@@ -196,7 +196,7 @@ button,
 [type="button"],
 [type="reset"],
 [type="submit"] {
-  -webkit-appearance: button;
+  -webpkit-appearance: button;
 }
 
 /**
@@ -277,8 +277,8 @@ textarea {
  * Correct the cursor style of increment and decrement buttons in Chrome.
  */
 
-[type="number"]::-webkit-inner-spin-button,
-[type="number"]::-webkit-outer-spin-button {
+[type="number"]::-webpkit-inner-spin-button,
+[type="number"]::-webpkit-outer-spin-button {
   height: auto;
 }
 
@@ -288,7 +288,7 @@ textarea {
  */
 
 [type="search"] {
-  -webkit-appearance: textfield; /* 1 */
+  -webpkit-appearance: textfield; /* 1 */
   outline-offset: -2px; /* 2 */
 }
 
@@ -296,8 +296,8 @@ textarea {
  * Remove the inner padding in Chrome and Safari on macOS.
  */
 
-[type="search"]::-webkit-search-decoration {
-  -webkit-appearance: none;
+[type="search"]::-webpkit-search-decoration {
+  -webpkit-appearance: none;
 }
 
 /**
@@ -305,8 +305,8 @@ textarea {
  * 2. Change font properties to `inherit` in Safari.
  */
 
-::-webkit-file-upload-button {
-  -webkit-appearance: button; /* 1 */
+::-webpkit-file-upload-button {
+  -webpkit-appearance: button; /* 1 */
   font: inherit; /* 2 */
 }
 

@@ -39,8 +39,6 @@
   font-display: swap;
 }
 
-
-
 @font-face {
   font-family: "Montserrat";
   src: local("Montserrat-ExtraBold"),
@@ -307,7 +305,7 @@ ul {
   margin-bottom: 51px;
   padding: 100px 80px;
   border-radius: 32px;
-  background-image: url("../img/hero-bg.jpg");
+  background-image: url("../img/hero-bg.webp");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -384,7 +382,7 @@ ul {
   /* min-width: 868px; */
   /* width: ; */
   border-radius: 32px;
-  background-image: url("../img/about-bg.png");
+  background-image: url("../img/about-bg.webp");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -475,7 +473,7 @@ ul {
 
 .stages__list::after {
   content: "";
-  background-image: url('../img/stages-bg.jpg');
+  background-image: url('../img/stages-bg.webp');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
